@@ -82,6 +82,7 @@ nav ul li a:hover {
     position: relative;
     z-index: 2;
     padding: 0 20px; /* Padding for better text spacing */
+    max-width: 90%; /* Ensure it doesn't stretch too wide */
 }
 
 .hero-content h2 {
@@ -96,7 +97,7 @@ nav ul li a:hover {
 
 /* Section styling */
 section {
-    padding: 40px 0;
+    padding: 40px 20px; /* Add padding on the left and right */
 }
 
 section h2 {
@@ -112,6 +113,7 @@ section h2 {
     gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 20px; /* Add padding on the left and right */
 }
 
 .application-item, .reason-item {
@@ -131,10 +133,11 @@ footer {
     background-color: #282c34;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 20px; /* Add padding on the left and right */
     margin-top: 20px;
 }
 
 footer p {
     margin: 0;
 }
+
